@@ -1,5 +1,6 @@
 import React from 'react'
 import SongList from './SongList'
+import PicturesSong from './PicturesSong'
 
 // const todos = [
 //   { id: 1, text: '', completed: false },
@@ -15,7 +16,7 @@ import SongList from './SongList'
 
 const App = () => (
   <div>
-
+    <PicturesSong />
     <SongList />
   </div>
 )
