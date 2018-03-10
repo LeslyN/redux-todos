@@ -10,17 +10,14 @@ const operationsSongs = [
 const Ranking = () => {
   return (
     <div className="clase1">
-      { playList.map((item, index) => {
-        return <p key={index} id={index}>{item.nameButton}</p>
+      { operationsSongs.map((item, index) => {
+        return <button style={{ marginLeft: 10 }}>
+        <b>+</b>
+      </button> 
         })
       }
-    <button
-      style={{ marginLeft: 10 }}
-    >
-      <b>x</b>
-    </button>
     </div>
   )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
 
-export default RankigBotons
+export default Ranking
