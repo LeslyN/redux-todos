@@ -4,11 +4,11 @@ import './SongList.css'
 import RankingButtons from './RankingButtons'
 
 const playList = [
-  { id: 0, nameSong: 'song nro 1' },
-  { id: 1, nameSong: 'song nro 2' },
-  { id: 2, nameSong: 'song nro 3' },
-  { id: 3, nameSong: 'song nro 4' },
-  { id: 4, nameSong: 'song nro 5' },
+  { id: 0, nameSong: 'Minuet in G - J.S Bach' },
+  { id: 1, nameSong: 'Sogno - Andrea Bocelli' },
+  { id: 2, nameSong: 'Lascia ch\'io pianga - G.F. Händel' },
+  { id: 3, nameSong: 'Air - Johan Sebastian Bach' },
+  { id: 4, nameSong: 'Passacaglia - Handel-Halvorsen' },
 ];
 
 // Por motivos de prueba se añaden los estilos.
