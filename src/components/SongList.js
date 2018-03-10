@@ -1,6 +1,7 @@
 import React from 'react'
 // import './App'
 import './SongList.css'
+import RankingButtons from './RankingButtons'
 
 const playList = [
   { id: 0, nameSong: 'song nro 1' },
@@ -25,27 +26,9 @@ const SongList = () => {
   return (
     <div className="clase1">
       { playList.map((item, index) => {
-        return <p key={index} id={index}>{item.nameSong }<RankView /></p>
+        return <p key={index} id={index}>{item.nameSong }<RankView /><RankingButtons/></p>
       })
       }
-      
-      <table>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
     </div>
   )
 }
