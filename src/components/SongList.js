@@ -13,7 +13,7 @@ const playList = [
 
 // Por motivos de prueba se añaden los estilos.
 
-const boxRankView = {outline: '2px solid green', width: '20px', height:'20px', display: 'inline-block'};
+const boxRankView = {outline: '2px solid green', width: '20px', height:'20px', display: 'inline-block','margin-top': '2em', 'margin-left': '2em'};
 
 // Aquí se visualizará el ranking, se pone en div para visualizarlo mejor
 const RankView = () => {
@@ -26,7 +26,7 @@ const SongList = () => {
   return (
     <div className="clase1">
       { playList.map((item, index) => {
-        return <p key={index} id={index}>{item.nameSong }<RankView /><RankingButtons/></p>
+        return <p className="ml-3 pr-3" key={index} id={index}>{item.nameSong }<RankView /><RankingButtons/></p>
       })
       }
     </div>
