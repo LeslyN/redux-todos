@@ -23,30 +23,30 @@ const RankView = () => {
 
 const SongList = () => {
   return (
-    <div>
-      {playList.map((item, index) => {
-        return <p key={index} id={index}>{item.nameSong }<RankView /></p>})
-        }
+    <div className="clase1">
+      { playList.map((item, index) => {
+        return <p key={index} id={index}>{item.nameSong }<RankView /></p>
+      })
+      }
       
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
     </div>
-    // <table>
-    //   <tr>
-    //     <td>1</td>
-    //     <td>2</td>
-    //     <td></td>
-    //   </tr>
-    //   <tr>
-    //     <td></td>
-    //     <td></td>
-    //     <td></td>
-    //   </tr>
-    //   <tr>
-    //     <td></td>
-    //     <td></td>
-    //     <td></td>
-    //   </tr>
-    // </table>
-
   )
 }
 

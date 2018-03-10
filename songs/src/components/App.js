@@ -1,6 +1,8 @@
 import React from 'react'
 import SongList from './SongList'
 import PicturesSong from './PicturesSong'
+import RankingBotons from './RankingBotons'
+import './App.css'
 
 // const todos = [
 //   { id: 1, text: '', completed: false },
@@ -18,7 +20,8 @@ const App = () => (
   <div>
     <PicturesSong />
     <SongList />
+    <RankingBotons/>
   </div>
 )
 
-export default App
+export default App;
