@@ -1,5 +1,6 @@
 import React from 'react'
 import './RankingBotons.css'
+import SongList from './SongList'
 
 const operationsSongs = [
   { id: 0, nameButton: '+' },
@@ -9,13 +10,15 @@ const operationsSongs = [
 
 const Ranking = () => {
   return (
-    <div className="clase1">
+    <div className=""> {SongList}
       { operationsSongs.map((item, index) => {
-        return <button style={{ marginLeft: 10 }}>
+        return <button className="btn btn-outline-warning rounded-circle" style={{ marginLeft: 10 }}>
         <b>+</b>
       </button> 
-        })
-      }
+        }
+      )}
+    )
+    }
     </div>
   )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
