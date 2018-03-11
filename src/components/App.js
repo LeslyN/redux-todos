@@ -7,7 +7,6 @@ const App = () => (
   <div>
     <PicturesSong />
     <SongList />
-    {/* <RankingButtons /> */}
   </div>
 )
 

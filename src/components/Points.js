@@ -2,9 +2,9 @@ import React from 'react'
 
 
 // Aquí se visualizará el ranking, se pone en div para visualizarlo mejor
-const Points = () => {
+const Points = ({ points }) => {
   return(
-    <button className="check-button" style={{ marginLeft: 10 }}><b>x</b></button>
+    <span className="check-button" style={{ marginLeft: 10 }}><b>{points}</b></span>
   )  
 }
 
