@@ -13,7 +13,7 @@ const playList = [
 
 // Por motivos de prueba se añaden los estilos.
 
-const boxRankView = {outline: '2px solid green', width: '20px', height:'20px', display: 'inline-block','margin-top': '2em', 'margin-left': '2em'};
+const boxRankView = {outline: '2px solid green', width: '20px', height:'20px', display: 'inline-block', margin: '2em 2em 0 1em'};
 
 // Aquí se visualizará el ranking, se pone en div para visualizarlo mejor
 const RankView = () => {
