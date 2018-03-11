@@ -1,4 +1,9 @@
-.clase1 {
+.box-playList p {
   display: inline-block;
-  border: 1px solid #000;
+  width: 30vw;
+  max-width: 40vw;
+}
+
+.check-button {
+  margin-right: 2em;
 }
