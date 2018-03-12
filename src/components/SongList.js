@@ -36,13 +36,13 @@ class SongList extends React.Component {
     return (
       <div className="allPlayList">
         {this.state.playList.map(songs =>
-        <div className="box-playList">
+        <div className="box-playList" key={songs.id}>
           <p className="ml-3 pr-3">{songs.nameSong}</p>
+          <Points {...songs}/>
           <div style={{display: 'inline-block'}}>            
-            <button className="btn btn-warning rounded-circle mr-2">+</button>
+            <button className="btn btn-warning rounded-circle mr-2" onClick={() => this.aboutPoints(songs)}>+</button>
             <button className="btn btn-warning rounded-circle">-</button>
-            </div>
-            <Points {...songs}/>
+          </div>
         </div>
         )}
       </div>
@@ -53,7 +53,7 @@ class SongList extends React.Component {
   aboutPoints(songs) {
     // despachando el primer evento, se pasa primero el action
     store.dispatch({
-      type : "ADD_TO_CART",
+      type : "ADD_ SONG",
       songs
     });
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import SongList from './SongList'
 import PicturesSong from './PicturesSong'
-import RankingButtons from './RankingButtons'
+// import RankingButtons from './RankingButtons'
 
 const App = () => (
   <div>
