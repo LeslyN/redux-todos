@@ -1,0 +1,9 @@
+.box-playList p {
+  display: inline-block;
+  width: 30vw;
+  max-width: 40vw;
+}
+
+.check-button {
+  margin-right: 2em;
+}
